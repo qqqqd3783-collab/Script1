@@ -33,6 +33,20 @@ local MAPS_CONFIG = {
         buttonColor = Color3.fromRGB(96, 211, 148)
     },
     {
+        placeId = 606849621,
+        status = "Working • Fast",
+        statusColor = Color3.fromRGB(96, 211, 148),
+        scriptUrl = "https://raw.githubusercontent.com/example/script3.lua",
+        buttonColor = Color3.fromRGB(96, 211, 148)
+    },
+    {
+        placeId = 606849621,
+        status = "Working • Fast",
+        statusColor = Color3.fromRGB(96, 211, 148),
+        scriptUrl = "https://raw.githubusercontent.com/example/script3.lua",
+        buttonColor = Color3.fromRGB(96, 211, 148)
+    },
+    {
         placeId = 292439477,
         status = "Patched • Not Working",
         statusColor = Color3.fromRGB(220, 88, 88),
