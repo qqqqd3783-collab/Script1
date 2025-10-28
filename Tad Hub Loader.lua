@@ -320,7 +320,8 @@ function LoaderController:CreateMapCard(mapData, parent, index)
     Thumbnail.BackgroundColor3 = Color3.fromRGB(25, 28, 38)
     Thumbnail.BorderSizePixel = 0
     Thumbnail.Image = placeInfo.thumbnailUrl
-    Thumbnail.ScaleType = Enum.ScaleType.Crop
+    Thumbnail.ScaleType = Enum.ScaleType.Tile
+    Thumbnail.TileSize = UDim2.new(1.5, 0, 1.5, 0)
     Thumbnail.Parent = Card
     
     local ThumbCorner = Instance.new("UICorner")
