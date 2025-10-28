@@ -531,7 +531,7 @@ end
 
 function LoaderController:CreateGUI()
     local ScreenGui = Instance.new("ScreenGui")
-    ScreenGui.Name = "ScriptLoaderGUI"
+    ScreenGui.Name = "TadHubLoaderGUI"
     ScreenGui.ResetOnSpawn = false
     ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     ScreenGui.Parent = game.CoreGui
@@ -541,7 +541,7 @@ function LoaderController:CreateGUI()
     local MainFrame = Instance.new("Frame")
     MainFrame.Name = "MainFrame"
     MainFrame.Size = UDim2.new(0, 650, 0, 520)
-    MainFrame.Position = UDim2.new(0.5, -325, 0.5, -260)
+    MainFrame.Position = UDim2.new(0.5, -187, 0.5, -197)
     MainFrame.BackgroundColor3 = UI_CONFIG.BackgroundColor
     MainFrame.BorderSizePixel = 0
     MainFrame.ClipsDescendants = false
@@ -576,7 +576,7 @@ function LoaderController:CreateGUI()
     Title.Size = UDim2.new(1, -40, 0, 30)
     Title.Position = UDim2.new(0, 20, 0, 15)
     Title.BackgroundTransparency = 1
-    Title.Text = "🚀 Script Loader"
+    Title.Text = "Tad Hub Loader"
     Title.TextColor3 = UI_CONFIG.TextPrimary
     Title.Font = Enum.Font.GothamBold
     Title.TextSize = 20
