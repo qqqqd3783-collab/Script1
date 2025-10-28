@@ -1,21 +1,13 @@
--- Single File Version - Script Loader (FIXED VERSION)
--- รันไฟล์เดียวใน Executor ได้เลย ไม่ต้องใช้ GitHub
--- แก้ไขการดึงรูปภาพให้ใช้ Direct URL แทน Thumbnail API
-
 local TweenService = game:GetService("TweenService")
 local HttpService = game:GetService("HttpService")
 local UserInputService = game:GetService("UserInputService")
 
--- ========================================
--- CONFIGURATION - แก้ไขตรงนี้
--- ========================================
-
 local MAPS_CONFIG = {
     {
-        placeId = 1537690962,
-        status = "Working • Updated 2025",
+        placeId = 127742093697776,
+        status = "Working • Last Update: 10/28/2025",
         statusColor = Color3.fromRGB(96, 211, 148),
-        scriptUrl = "https://raw.githubusercontent.com/example/script1.lua",
+        scriptUrl = "https://raw.githubusercontent.com/Tad-Hub-1/Script/refs/heads/main/Plants_vs_Brainrots.lua",
         buttonColor = Color3.fromRGB(96, 211, 148)
     },
     {
