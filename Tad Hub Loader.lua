@@ -11,23 +11,30 @@ local MAPS_CONFIG = {
         buttonColor = Color3.fromRGB(96, 211, 148)
     },
     {
-        placeId = 142823291,
-        status = "Working • Premium",
-        statusColor = Color3.fromRGB(96, 211, 148),
-        scriptUrl = "https://raw.githubusercontent.com/example/script2.lua",
-        buttonColor = Color3.fromRGB(96, 211, 148)
+        placeId = 79546208627805,
+        status = "Script is still in progress.",
+        statusColor = Color3.fromRGB(255, 255, 0),
+        scriptUrl = "",
+        buttonColor = Color3.fromRGB(220, 88, 88)
     },
     {
-        placeId = 606849621,
-        status = "Working • Fast",
-        statusColor = Color3.fromRGB(96, 211, 148),
-        scriptUrl = "https://raw.githubusercontent.com/example/script3.lua",
-        buttonColor = Color3.fromRGB(96, 211, 148)
+        placeId = 109983668079237,
+        status = "Script is still in progress.",
+        statusColor = Color3.fromRGB(255, 255, 0),
+        scriptUrl = "",
+        buttonColor = Color3.fromRGB(220, 88, 88)
     },
     {
-        placeId = 292439477,
-        status = "Patched • Not Working",
-        statusColor = Color3.fromRGB(220, 88, 88),
+        placeId = 122826953758426,
+        status = "Script is still in progress.",
+        statusColor = Color3.fromRGB(255, 255, 0),
+        scriptUrl = "",
+        buttonColor = Color3.fromRGB(220, 88, 88)
+    },
+    {
+        placeId = 9872472334,
+        status = "Script is still in progress.",
+        statusColor = Color3.fromRGB(255, 255, 0),
         scriptUrl = "",
         buttonColor = Color3.fromRGB(220, 88, 88)
     },
@@ -45,10 +52,6 @@ local UI_CONFIG = {
     CardSpacing = 12,
     CornerRadius = 12,
 }
-
--- ========================================
--- LOADER CONTROLLER
--- ========================================
 
 local LoaderController = {}
 LoaderController.__index = LoaderController
@@ -725,4 +728,4 @@ end
 local loader = LoaderController.new()
 loader:Init()
 
-print("✓ Script Loader initialized!")
+print("Ty For Use Tad Hub")
