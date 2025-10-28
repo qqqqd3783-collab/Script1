@@ -597,7 +597,7 @@ function LoaderController:CreateGUI()
     CloseButton.BackgroundColor3 = Color3.fromRGB(220, 88, 88)
     CloseButton.BackgroundTransparency = 0.9
     CloseButton.BorderSizePixel = 0
-    CloseButton.Text = "✕"
+    CloseButton.Text = "x"
     CloseButton.TextColor3 = UI_CONFIG.TextPrimary
     CloseButton.Font = Enum.Font.GothamBold
     CloseButton.TextSize = 18
