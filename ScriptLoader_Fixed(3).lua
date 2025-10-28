@@ -244,7 +244,6 @@ function LoaderController:RepositionNotifications()
         }):Play()
     end
 end
-end
 
 function LoaderController:LoadScript(mapData)
     if mapData.scriptUrl == "" or not mapData.scriptUrl then
