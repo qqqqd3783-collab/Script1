@@ -708,11 +708,11 @@ function LoaderController:CreateGUI()
     MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
     
     local targetSize = UDim2.new(0, 650, 0, 520)
-    local targetPos = UDim2.new(0.5, -325, 0.5, -260)
+    local targetPos = UDim2.new(0.5, -187, 0.5, -197)
     
     if UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled then
         targetSize = UDim2.new(0, 600, 0, 480)
-        targetPos = UDim2.new(0.5, -300, 0.5, -240)
+        targetPos = UDim2.new(0.5, -187, 0.5, -197)
     end
     
     TweenService:Create(MainFrame, TweenInfo.new(0.5, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {
