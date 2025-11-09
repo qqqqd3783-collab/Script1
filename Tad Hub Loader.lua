@@ -5,7 +5,7 @@ local UserInputService = game:GetService("UserInputService")
 local MAPS_CONFIG = {
     {
         placeId = 127742093697776,
-        status = "Working • Last Update: 10/28/2025",
+        status = "Working • Last Update: 11/9/2025",
         statusColor = Color3.fromRGB(96, 211, 148),
         scriptUrl = "https://raw.githubusercontent.com/Tad-Hub-1/Script/refs/heads/main/Plants_vs_Brainrots.lua",
         buttonColor = Color3.fromRGB(96, 211, 148)
